@@ -17,7 +17,6 @@ on:
   workflow_dispatch:
 
 env:
-  # 官方原版LEDE 17.01源码仓库
   REPO_URL: https://github.com/lede-project/source.git
   REPO_BRANCH: v17.01.7
   FEEDS_CONF: feeds.conf.default
