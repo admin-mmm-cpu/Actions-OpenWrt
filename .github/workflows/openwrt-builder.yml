@@ -30,12 +30,11 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    container: ubuntu:18.04
+    runs-on: ubuntu-18.04
 
     steps:
     - name: Checkout
-      uses: actions/checkout@main
+      uses: actions/checkout@v3
 
     - name: Initialization environment
       env:
